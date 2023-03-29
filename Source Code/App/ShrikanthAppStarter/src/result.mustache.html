@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+  <head>
+    <title>Result</title>
+    <link type="text/css" rel="stylesheet" href="table.css" />
+  </head>
+  <body>
+  <div><center>&nbsp;<b>Movie: {{title}} </b>&nbsp;</center></div>
+    <p style="bottom-margin: 100px">
+      <table class="CSS_Table_Example" style="width:60%;margin:auto;overflow: hidden">
+	<tr><td>Title</td><td>Year</td><td>Genre</td><td>Director</td><td>Writer</td><td>Rating</td><td>Votes</td></tr>
+	<tr><td>{{title}}</td><td>{{year}}</td><td>{{genre}}</td><td>{{director}}</td><td>{{writer}}</td>
+        <td>{{avg_rating}}</td><td>{{votes}}</td></tr>
+    </table>
+    <br><br>
+    <div><center>&nbsp;<b>Top movie of genre: </b>{{genre}}&nbsp;</center></div>
+    <p style="bottom-margin: 100px">
+      <table class="CSS_Table_Example" style="width:60%;margin:auto;overflow: hidden">
+    <tr><td>Rank</td><td>Title</td><td>Year</td><td>Director</td><td>Writer</td><td>Rating</td><td>Votes</td></tr>
+	<tr><td>{{GRec_rank}}</td><td>{{GRec_title}}</td><td>{{GRec_year}}</td><td>{{GRec_director}}</td><td>{{GRec_writer}}</td>
+        <td>{{GRec_rating}}</td><td>{{GRec_votes}}</td>
+	  </tr>
+    </table>
+    <br><br>
+  <div><center>&nbsp;<b>Top stats of year {{year}}</b>&nbsp;</center></div>
+    <p style="bottom-margin: 100px">
+      <table class="CSS_Table_Example" style="width:40%;margin:auto;overflow: hidden">
+    <tr><td>Popular Genre</td><td>Best Director</td><td>Best Writer</td></tr>
+	<tr><td>{{YRec_title}}</td><td>{{YRec_director}}</td><td>{{YRec_writer}}</td></tr>
+    </table>
+    </p>
+</body></html>

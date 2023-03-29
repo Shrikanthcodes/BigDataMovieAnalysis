@@ -1,0 +1,2 @@
+cd /home/ec2-user/shrikanth-3/CodeDeploy/movierecommender
+forever --id "movierec_3010" start app.js 3010 172.31.95.18 8070 b-3.mpcs530142022.7vr20l.c19.kafka.us-east-1.amazonaws.com:9092,b-1.mpcs530142022.7vr20l.c19.kafka.us-east-1.amazonaws.com:9092,b-2.mpcs530142022.7vr20l.c19.kafka.us-east-1.amazonaws.com:9092

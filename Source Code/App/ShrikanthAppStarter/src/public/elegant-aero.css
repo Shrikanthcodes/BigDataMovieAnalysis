@@ -1,0 +1,95 @@
+/* Elegant Aero */
+/* From http://www.sanwebe.com/2013/10/css-html-form-styles */
+.elegant-aero {
+/*	margin:0px;padding:0px;*/
+    padding:10px 10px 10px 10px;
+	box-shadow: 10px 10px 5px rgba(180, 115, 134, 0.49);
+	border:1px solid rgba(29, 28, 28, 0.22);
+	-moz-border-radius-bottomleft:9px;
+	-webkit-border-bottom-left-radius:9px;
+	border-bottom-left-radius:20px;
+	-moz-border-radius-bottomright:9px;
+	-webkit-border-bottom-right-radius:9px;
+	border-bottom-right-radius:20px;
+	-moz-border-radius-topright:9px;
+	-webkit-border-top-right-radius:9px;
+	border-top-right-radius:20px;
+	-moz-border-radius-topleft:9px;
+	-webkit-border-top-left-radius:9px;
+	border-top-left-radius:20px;
+ }
+.elegant-aero h1 {
+    font: 24px Alegreya;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    background: #7376b4;
+    border-bottom: 1px solid #7385b4;
+    margin: -20px -20px 15px;
+}
+.elegant-aero h1>span {
+    display: block;
+    font-size: 13px;
+}
+
+.elegant-aero label>span {
+    float: left;
+    margin-top: 10px;
+    color: #737eb4;
+    font: 16px Alegreya;
+
+}
+.elegant-aero label {
+    display: block;
+    margin: 5px 10px 5px;
+}
+.elegant-aero label>span {
+    float: left;
+    width: 50%;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.elegant-aero input[type="text"], .elegant-aero input[type="email"], .elegant-aero textarea, .elegant-aero select {
+    color: #7394b4;
+    width: 30%;
+    padding: 0px 0px 0px 5px;
+    border: 1px solid #737cb4;
+    background: rgb(255, 255, 255);
+    outline: 0;
+    -webkit-box-shadow:inset 0px 1px 6px #ECF3F5;
+    box-shadow: inset 0px 1px 6px #ECF3F5;
+    font: 200 16px/25px Alegreya;
+    height: 30px;
+    line-height:15px;
+    margin: 2px 6px 16px 0px;
+}
+.elegant-aero textarea{
+    height:100px;
+    padding: 5px 30px 0px 5px;
+    width: 70%;
+}
+.elegant-aero select {
+    background: #fbfbfb url('down-arrow.png') no-repeat right;
+    background: #fbfbfb url('down-arrow.png') no-repeat right;
+   appearance:none;
+    -webkit-appearance:none;
+   -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+}
+.elegant-aero .button{
+    padding: 10px 30px 10px 30px;
+    background: rgba(180, 115, 134, 0.6);
+    border: none;
+    color: rgba(255, 255, 255, 0.46);
+    box-shadow: 1px 1px 1px rgba(180, 115, 134, 0.6);
+    -webkit-box-shadow: 1px 1px 1px rgba(180, 115, 134, 0.6);
+    -moz-box-shadow: 1px 1px 1px rgba(180, 115, 134, 0.6);
+    text-shadow: 1px 1px 1px rgba(180, 115, 134, 0.6);
+   
+}
+.elegant-aero .button:hover{
+    background: rgba(130, 255, 245, 0.24);
+}

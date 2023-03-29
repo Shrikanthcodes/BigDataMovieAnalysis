@@ -1,0 +1,11 @@
+//Run the following on a HBase Shell
+
+hbase shell
+
+create 'shrikanth_movie', 'movie'
+
+create 'shrikanth_recs', 'recs'
+
+create 'shrikanth_movie_year', 'movie_year'
+
+beeline -u jdbc:hive2://localhost:10000/default -n hadoop -d org.apache.hive.jdbc.HiveDriver
